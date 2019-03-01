@@ -1,6 +1,86 @@
 GET http://localhost:2019/books
 Accept: */*
 Cache-Control: no-cache
+Authorization: Bearer 8f72b83e-8903-4fb2-b0de-db820f59648d
+Content-Type: application/json
+
+<> 2019-03-01T032131.200.json
+
+###
+
+GET http://localhost:2019/books
+Accept: */*
+Cache-Control: no-cache
+Authorization: Bearer 8f72b83e-8903-4fb2-b0de-db820f59648d
+Content-Type: application/json
+
+<> 2019-03-01T032046.200.json
+
+###
+
+DELETE http://localhost:2019/books
+Accept: */*
+Cache-Control: no-cache
+Authorization: Bearer 8f72b83e-8903-4fb2-b0de-db820f59648d
+Content-Type: application/json
+
+<> 2019-03-01T032039.405.json
+
+###
+
+DELETE http://localhost:2019/data/books/1
+Accept: */*
+Cache-Control: no-cache
+Authorization: Bearer 8f72b83e-8903-4fb2-b0de-db820f59648d
+Content-Type: application/json
+
+<> 2019-03-01T032032.500.json
+
+###
+
+DELETE http://localhost:2019/books/1
+Accept: */*
+Cache-Control: no-cache
+Authorization: Bearer 8f72b83e-8903-4fb2-b0de-db820f59648d
+Content-Type: application/json
+
+<> 2019-03-01T032025.404.json
+
+###
+
+DELETE http://localhost:2019/1
+Accept: */*
+Cache-Control: no-cache
+Authorization: Bearer 8f72b83e-8903-4fb2-b0de-db820f59648d
+Content-Type: application/json
+
+<> 2019-03-01T032021.404.json
+
+###
+
+GET http://localhost:2019/books
+Accept: */*
+Cache-Control: no-cache
+Authorization: Bearer 8f72b83e-8903-4fb2-b0de-db820f59648d
+Content-Type: application/json
+
+<> 2019-03-01T032012-1.200.json
+
+###
+
+GET http://localhost:2019/books
+Accept: */*
+Cache-Control: no-cache
+Authorization: Bearer 8f72b83e-8903-4fb2-b0de-db820f59648d
+Content-Type: application/json
+
+<> 2019-03-01T032012.200.json
+
+###
+
+GET http://localhost:2019/books
+Accept: */*
+Cache-Control: no-cache
 Authorization: Bearer 6252c41c-06f1-4254-9098-910bc9aeb206
 Content-Type: application/json
 
