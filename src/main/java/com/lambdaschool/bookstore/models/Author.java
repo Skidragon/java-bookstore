@@ -18,7 +18,7 @@ public class Author {
     private String lastname;
 
     @ManyToMany
-    @JoinTable(name = "authorbooks",
+    @JoinTable(name = "wrote",
     joinColumns = {@JoinColumn(name="authorid")},
     inverseJoinColumns = {@JoinColumn(name="bookid")})
     @JsonIgnoreProperties("authors")

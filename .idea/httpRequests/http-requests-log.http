@@ -1,0 +1,133 @@
+GET http://localhost:2019/authors
+Accept: */*
+Cache-Control: no-cache
+Authorization: Bearer 2ad232f3-0cec-498d-b547-24933e353881
+
+<> 2019-03-01T020906-1.200.json
+
+###
+
+GET http://localhost:2019/authors
+Accept: */*
+Cache-Control: no-cache
+Authorization: Bearer 2ad232f3-0cec-498d-b547-24933e353881
+
+<> 2019-03-01T020906.200.json
+
+###
+
+GET http://localhost:2019/sections
+Accept: */*
+Cache-Control: no-cache
+Authorization: Bearer 2ad232f3-0cec-498d-b547-24933e353881
+
+<> 2019-03-01T020902-1.200.json
+
+###
+
+GET http://localhost:2019/sections
+Accept: */*
+Cache-Control: no-cache
+Authorization: Bearer 2ad232f3-0cec-498d-b547-24933e353881
+
+<> 2019-03-01T020902.200.json
+
+###
+
+GET http://localhost:2019/sections
+Accept: */*
+Cache-Control: no-cache
+Authorization: Bearer 354de7fe-c3ae-4ae5-adc7-bf1b0a2b3d38
+
+<> 2019-03-01T020614.404.json
+
+###
+
+GET http://localhost:2019/authors
+Accept: */*
+Cache-Control: no-cache
+Authorization: Bearer 354de7fe-c3ae-4ae5-adc7-bf1b0a2b3d38
+
+<> 2019-03-01T020556.404.json
+
+###
+
+GET http://localhost:2019/books/
+Accept: */*
+Cache-Control: no-cache
+Authorization: Bearer 354de7fe-c3ae-4ae5-adc7-bf1b0a2b3d38
+
+<> 2019-03-01T020547.200.json
+
+###
+
+GET http://localhost:2019/books/
+Accept: */*
+Cache-Control: no-cache
+Authorization: Basic U2ltb246YWJj
+
+<> 2019-03-01T020436.401.json
+
+###
+
+GET http://localhost:2019/books/
+Accept: */*
+Cache-Control: no-cache
+Authorization: Bearer 7c9f52d4-2341-4212-941e-6c2083023f6e
+
+<> 2019-03-01T011747.200.json
+
+###
+
+GET http://localhost:2019/books
+Accept: */*
+Cache-Control: no-cache
+Authorization: Bearer 7c9f52d4-2341-4212-941e-6c2083023f6e
+
+<> 2019-03-01T011745.200.json
+
+###
+
+GET http://localhost:2019/books
+Accept: */*
+Cache-Control: no-cache
+Authorization: Bearer 7c9f52d4-2341-4212-941e-6c2083023f6e
+
+<> 2019-03-01T011735.200.json
+
+###
+
+GET http://localhost:2019/books
+Accept: */*
+Cache-Control: no-cache
+Authorization: Bearer 7c9f52d4-2341-4212-941e-6c2083023f6e
+
+<> 2019-03-01T011733.200.json
+
+###
+
+GET http://localhost:2019/books
+Accept: */*
+Cache-Control: no-cache
+Authorization: Bearer 6b26f33f-f7f9-4984-b9c1-f1999a2e71d3
+
+<> 2019-03-01T010859.200.json
+
+###
+
+GET http://localhost:2019/
+Accept: */*
+Cache-Control: no-cache
+Authorization: Basic U2ltb246YWJj
+
+<> 2019-03-01T010830.404.json
+
+###
+
+GET http://localhost:2020/
+Accept: */*
+Cache-Control: no-cache
+Authorization: Basic U2ltb246YWJj
+
+###
+

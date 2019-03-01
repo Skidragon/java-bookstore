@@ -10,25 +10,24 @@ public class Section {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private long section;
+    private long sectionid;
 
     private String name;
 
     @ManyToOne
-    @JoinColumn(name="bookid")
+    @JoinColumn(name="sections")
     @JsonIgnore
     private Book book;
-
 
     public Section() {
     }
 
-    public long getSection() {
-        return section;
+    public long getSectionid() {
+        return sectionid;
     }
 
-    public void setSection(long section) {
-        this.section = section;
+    public void setSectionid(long sectionid) {
+        this.sectionid = sectionid;
     }
 
     public String getName() {
