@@ -1,6 +1,10 @@
 package com.lambdaschool.bookstore.models;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
 import javax.persistence.*;
+import java.util.HashSet;
+import java.util.Set;
 
 @Entity
 @Table(name="authors")
@@ -13,11 +17,47 @@ public class Author {
     private String firstname;
     private String lastname;
 
-    //TODO create a Many-to-Many relationship with book
+    @ManyToMany
+    @JoinTable(name = "authorbooks",
+    joinColumns = {@JoinColumn(name="authorid")},
+    inverseJoinColumns = {@JoinColumn(name="bookid")})
+    @JsonIgnoreProperties("authors")
+    private Set<Book> books = new HashSet<>();
 
-    //TODO getters and setters
 
 
     public Author() {
+    }
+
+    public long getAuthorid() {
+        return authorid;
+    }
+
+    public void setAuthorid(long authorid) {
+        this.authorid = authorid;
+    }
+
+    public String getFirstname() {
+        return firstname;
+    }
+
+    public void setFirstname(String firstname) {
+        this.firstname = firstname;
+    }
+
+    public String getLastname() {
+        return lastname;
+    }
+
+    public void setLastname(String lastname) {
+        this.lastname = lastname;
+    }
+
+    public Set<Book> getBooks() {
+        return books;
+    }
+
+    public void setBooks(Set<Book> books) {
+        this.books = books;
     }
 }
