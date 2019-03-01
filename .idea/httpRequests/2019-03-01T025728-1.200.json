@@ -1,0 +1,70 @@
+[
+  {
+    "bookid": 1,
+    "booktitle": "Flatterland",
+    "copy": 2001,
+    "section": {
+      "sectionid": 1,
+      "name": "Fiction"
+    },
+    "authors": [
+      {
+        "authorid": 6,
+        "firstname": "Ian",
+        "lastname": "Stewart"
+      }
+    ],
+    "isbn": "9780738206752"
+  },
+  {
+    "bookid": 2,
+    "booktitle": "Digital Fortess",
+    "copy": 2007,
+    "section": {
+      "sectionid": 1,
+      "name": "Fiction"
+    },
+    "authors": [
+      {
+        "authorid": 2,
+        "firstname": "Dan",
+        "lastname": "Brown"
+      }
+    ],
+    "isbn": "9788489367012"
+  },
+  {
+    "bookid": 3,
+    "booktitle": "The Da Vinci Code",
+    "copy": 2009,
+    "section": {
+      "sectionid": 1,
+      "name": "Fiction"
+    },
+    "authors": [
+      {
+        "authorid": 2,
+        "firstname": "Dan",
+        "lastname": "Brown"
+      }
+    ],
+    "isbn": "9780307474278"
+  },
+  {
+    "bookid": 5,
+    "booktitle": "Calling Texas Home",
+    "copy": 2000,
+    "section": {
+      "sectionid": 3,
+      "name": "Travel"
+    },
+    "authors": [
+      {
+        "authorid": 4,
+        "firstname": "Wells",
+        "lastname": "Teague"
+      }
+    ],
+    "isbn": "1885171382134"
+  }
+]

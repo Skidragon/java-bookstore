@@ -1,6 +1,5 @@
 package com.lambdaschool.bookstore.models;
 
-import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 import javax.persistence.*;
@@ -19,24 +18,16 @@ public class Book {
 
     private int copy;
 
-    @OneToMany(cascade = CascadeType.REMOVE, mappedBy = "book")
-    @JsonIgnore
-    private Set<Section> sections = new HashSet<>();
+    @ManyToOne
+    @JoinColumn(name="sectionid")
+    @JsonIgnoreProperties("books")
+    private Section section;
 
     @ManyToMany(mappedBy = "books")
     @JsonIgnoreProperties("books")
     private Set<Author> authors = new HashSet<>();
 
-    private long sectionid;
     public Book() {
-    }
-
-    public long getSectionid() {
-        return sectionid;
-    }
-
-    public void setSectionid(long sectionid) {
-        this.sectionid = sectionid;
     }
 
     public long getBookid() {
@@ -71,12 +62,12 @@ public class Book {
         this.copy = copy;
     }
 
-    public Set<Section> getSections() {
-        return sections;
+    public Section getSection() {
+        return section;
     }
 
-    public void setSections(Set<Section> sections) {
-        this.sections = sections;
+    public void setSection(Section section) {
+        this.section = section;
     }
 
     public Set<Author> getAuthors() {
