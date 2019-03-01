@@ -1,5 +1,6 @@
 package com.lambdaschool.bookstore.controllers;
 
+import com.lambdaschool.bookstore.models.Author;
 import com.lambdaschool.bookstore.models.Book;
 import com.lambdaschool.bookstore.repositories.AuthorRepository;
 import com.lambdaschool.bookstore.repositories.BookRepository;
@@ -28,16 +29,23 @@ public class DataController {
         }
         return null;
     }
-//TODO
-//    @PostMapping("/books/{bookid}/authors{authorid}")
-//    public String updateBookToAuthor(@PathVariable long bookid, @PathVariable long authorid) {
-//        Optional<Book> foundBook = bookRepo.findById(bookid);
-//        if(foundBook.isPresent()) {
-//            Optional<Author> author = authorRepo.findById(authorid);
-//            if(author.isPresent()) {
-//            }
-//        }
-//    }
+    @PostMapping("/books/{bookid}/authors/{authorid}")
+    public String updateBookToAuthor(@PathVariable long bookid, @PathVariable long authorid) {
+        Optional<Book> foundBook = bookRepo.findById(bookid);
+        if(foundBook.isPresent()) {
+            Optional<Author> author = authorRepo.findById(authorid);
+            if(author.isPresent()) {
+                authorRepo.updateBookToAuthor(authorid, bookid);
+                return "Author with id: " + authorid + " and Book with id: " + bookid + " are connected";
+            }
+            else {
+                return "author with that id does not exist";
+            }
+        }
+        else {
+            return "book with that id does not exist";
+        }
+    }
 
     @DeleteMapping("/books/{id}")
     public Book deleteBookById(@PathVariable long id) {

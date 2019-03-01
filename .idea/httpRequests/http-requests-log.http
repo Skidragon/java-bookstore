@@ -1,3 +1,163 @@
+POST http://localhost:2019/data/books/2/authors/3
+Accept: */*
+Cache-Control: no-cache
+Authorization: Bearer 6243f38f-bd23-45bb-9e88-5e4bfa366435
+Content-Type: application/json
+
+<> 2019-03-01T034922.500.json
+
+###
+
+POST http://localhost:2019/data/books/2/authors/3
+Accept: */*
+Cache-Control: no-cache
+Authorization: Bearer 51ba8309-f754-4bc0-81ef-4476ed45eba0
+Content-Type: application/json
+
+<> 2019-03-01T034725.500.json
+
+###
+
+POST http://localhost:2019/data/books/2/authors/3
+Accept: */*
+Cache-Control: no-cache
+Authorization: Bearer 51ba8309-f754-4bc0-81ef-4476ed45eba0
+Content-Type: application/json
+
+<> 2019-03-01T034724.500.json
+
+###
+
+GET http://localhost:2019/authors
+Accept: */*
+Cache-Control: no-cache
+Authorization: Bearer 51ba8309-f754-4bc0-81ef-4476ed45eba0
+Content-Type: application/json
+
+<> 2019-03-01T034647.200.json
+
+###
+
+POST http://localhost:2019/authors
+Accept: */*
+Cache-Control: no-cache
+Authorization: Bearer 51ba8309-f754-4bc0-81ef-4476ed45eba0
+Content-Type: application/json
+
+<> 2019-03-01T034643-1.405.json
+
+###
+
+POST http://localhost:2019/authors
+Accept: */*
+Cache-Control: no-cache
+Authorization: Bearer 51ba8309-f754-4bc0-81ef-4476ed45eba0
+Content-Type: application/json
+
+<> 2019-03-01T034643.405.json
+
+###
+
+POST http://localhost:2019/data/books/2/authors/3
+Accept: */*
+Cache-Control: no-cache
+Authorization: Bearer 51ba8309-f754-4bc0-81ef-4476ed45eba0
+Content-Type: application/json
+
+<> 2019-03-01T034639.500.json
+
+###
+
+POST http://localhost:2019/data/books/2/authors/4
+Accept: */*
+Cache-Control: no-cache
+Authorization: Bearer 51ba8309-f754-4bc0-81ef-4476ed45eba0
+Content-Type: application/json
+
+<> 2019-03-01T034637.500.json
+
+###
+
+POST http://localhost:2019/data/books/2/authors/3
+Accept: */*
+Cache-Control: no-cache
+Authorization: Bearer 51ba8309-f754-4bc0-81ef-4476ed45eba0
+Content-Type: application/json
+
+<> 2019-03-01T034636.500.json
+
+###
+
+POST http://localhost:2019/data/books/2/authors/2
+Accept: */*
+Cache-Control: no-cache
+Authorization: Bearer 51ba8309-f754-4bc0-81ef-4476ed45eba0
+Content-Type: application/json
+
+<> 2019-03-01T034629.500.json
+
+###
+
+POST http://localhost:2019/data/books/2/authors2
+Accept: */*
+Cache-Control: no-cache
+Authorization: Bearer 989e8043-5a07-43fe-8f7a-4d3fe9e2b62a
+Content-Type: application/json
+
+<> 2019-03-01T034537.500.json
+
+###
+
+GET http://localhost:2019/authors
+Accept: */*
+Cache-Control: no-cache
+Authorization: Bearer 989e8043-5a07-43fe-8f7a-4d3fe9e2b62a
+Content-Type: application/json
+
+<> 2019-03-01T034512-1.200.json
+
+###
+
+GET http://localhost:2019/authors
+Accept: */*
+Cache-Control: no-cache
+Authorization: Bearer 989e8043-5a07-43fe-8f7a-4d3fe9e2b62a
+Content-Type: application/json
+
+<> 2019-03-01T034512.200.json
+
+###
+
+GET http://localhost:2019/author
+Accept: */*
+Cache-Control: no-cache
+Authorization: Bearer 989e8043-5a07-43fe-8f7a-4d3fe9e2b62a
+Content-Type: application/json
+
+<> 2019-03-01T034510.404.json
+
+###
+
+GET http://localhost:2019/books
+Accept: */*
+Cache-Control: no-cache
+Authorization: Bearer 989e8043-5a07-43fe-8f7a-4d3fe9e2b62a
+Content-Type: application/json
+
+<> 2019-03-01T034506-1.200.json
+
+###
+
+GET http://localhost:2019/books
+Accept: */*
+Cache-Control: no-cache
+Authorization: Bearer 989e8043-5a07-43fe-8f7a-4d3fe9e2b62a
+Content-Type: application/json
+
+<> 2019-03-01T034506.200.json
+
+###
+
 GET http://localhost:2019/books
 Accept: */*
 Cache-Control: no-cache
@@ -328,130 +488,6 @@ Cache-Control: no-cache
 Authorization: Bearer 2ad232f3-0cec-498d-b547-24933e353881
 
 <> 2019-03-01T020906-1.200.json
-
-###
-
-GET http://localhost:2019/authors
-Accept: */*
-Cache-Control: no-cache
-Authorization: Bearer 2ad232f3-0cec-498d-b547-24933e353881
-
-<> 2019-03-01T020906.200.json
-
-###
-
-GET http://localhost:2019/sections
-Accept: */*
-Cache-Control: no-cache
-Authorization: Bearer 2ad232f3-0cec-498d-b547-24933e353881
-
-<> 2019-03-01T020902-1.200.json
-
-###
-
-GET http://localhost:2019/sections
-Accept: */*
-Cache-Control: no-cache
-Authorization: Bearer 2ad232f3-0cec-498d-b547-24933e353881
-
-<> 2019-03-01T020902.200.json
-
-###
-
-GET http://localhost:2019/sections
-Accept: */*
-Cache-Control: no-cache
-Authorization: Bearer 354de7fe-c3ae-4ae5-adc7-bf1b0a2b3d38
-
-<> 2019-03-01T020614.404.json
-
-###
-
-GET http://localhost:2019/authors
-Accept: */*
-Cache-Control: no-cache
-Authorization: Bearer 354de7fe-c3ae-4ae5-adc7-bf1b0a2b3d38
-
-<> 2019-03-01T020556.404.json
-
-###
-
-GET http://localhost:2019/books/
-Accept: */*
-Cache-Control: no-cache
-Authorization: Bearer 354de7fe-c3ae-4ae5-adc7-bf1b0a2b3d38
-
-<> 2019-03-01T020547.200.json
-
-###
-
-GET http://localhost:2019/books/
-Accept: */*
-Cache-Control: no-cache
-Authorization: Basic U2ltb246YWJj
-
-<> 2019-03-01T020436.401.json
-
-###
-
-GET http://localhost:2019/books/
-Accept: */*
-Cache-Control: no-cache
-Authorization: Bearer 7c9f52d4-2341-4212-941e-6c2083023f6e
-
-<> 2019-03-01T011747.200.json
-
-###
-
-GET http://localhost:2019/books
-Accept: */*
-Cache-Control: no-cache
-Authorization: Bearer 7c9f52d4-2341-4212-941e-6c2083023f6e
-
-<> 2019-03-01T011745.200.json
-
-###
-
-GET http://localhost:2019/books
-Accept: */*
-Cache-Control: no-cache
-Authorization: Bearer 7c9f52d4-2341-4212-941e-6c2083023f6e
-
-<> 2019-03-01T011735.200.json
-
-###
-
-GET http://localhost:2019/books
-Accept: */*
-Cache-Control: no-cache
-Authorization: Bearer 7c9f52d4-2341-4212-941e-6c2083023f6e
-
-<> 2019-03-01T011733.200.json
-
-###
-
-GET http://localhost:2019/books
-Accept: */*
-Cache-Control: no-cache
-Authorization: Bearer 6b26f33f-f7f9-4984-b9c1-f1999a2e71d3
-
-<> 2019-03-01T010859.200.json
-
-###
-
-GET http://localhost:2019/
-Accept: */*
-Cache-Control: no-cache
-Authorization: Basic U2ltb246YWJj
-
-<> 2019-03-01T010830.404.json
-
-###
-
-GET http://localhost:2020/
-Accept: */*
-Cache-Control: no-cache
-Authorization: Basic U2ltb246YWJj
 
 ###
 
