@@ -25,17 +25,18 @@ public class DataController {
         Optional<Book> foundBook = bookRepo.findById(id);
         if(foundBook.isPresent()) {
             newBook.setBookid(id);
-            return foundBook.get();
+            bookRepo.save(newBook);
+            return newBook;
         }
         return null;
     }
     @PostMapping("/books/{bookid}/authors/{authorid}")
-    public String updateBookToAuthor(@PathVariable long bookid, @PathVariable long authorid) {
+    public String updateBookToAuthor(@PathVariable("bookid") long bookid, @PathVariable("authorid") long authorid) {
         Optional<Book> foundBook = bookRepo.findById(bookid);
         if(foundBook.isPresent()) {
             Optional<Author> author = authorRepo.findById(authorid);
             if(author.isPresent()) {
-                authorRepo.updateBookToAuthor(authorid, bookid);
+                bookRepo.insertWrote(bookid, authorid);
                 return "Author with id: " + authorid + " and Book with id: " + bookid + " are connected";
             }
             else {
